@@ -1,0 +1,168 @@
+tb_anak
+1. id_anak
+2. id_pegawai
+3. nama_anak
+4. tempat_lahir_anak
+5. tgl_lahir_anak
+6. jk_anak
+7. pendidikan_anak (paud, tk, sd, smp, sma, d1, d2, d3, s1, s2, s3)
+8. pekerjaan_anak
+9. 	 (angkat, kandung)
+
+tb_ortu
+1. id_ortu
+2. id_pegawai
+3. nama_ortu
+4. tempat_lahir_ortu
+5. tgl_lahir_ortu
+6. jk_ortu
+7. Pendidikan_ortu (paud, tk, sd, smp, sma, d1, d2, d3, s1, s2, s3)
+8. status_hub_ortu (ayah kandung, ibu kandung)
+
+tb_sekolah
+1. id_sekolahpegawai
+2. id_pegawai
+3. tingkat_sekolah (paud, tk, sd, smp, sma, d1, d2, d3, s1, s2, s3)
+4. nama_sekolah_pendidikan
+5. lokasi_sekolah
+6. jurusan
+7. namor_ijazah
+8. tgl_ijazah
+9. nama_kepsek_rektor
+
+tb_bahasa
+1. id_bahasa
+2. id_pegawai
+3. jenis_bahasa
+4. bahasa
+5. kemampuan_bicara (aktif, pasif)
+
+tb_tugastam
+1. id_tugastam
+2. id_pegawai
+3. jabatan (wakil kurikulum, wakil kesiswaan, wakil sarana, wakil humas, wakil manajemen mutu, kepala TU, dll)
+4. no_sk
+5. tgl_sk
+
+tb_pangkat
+1. id_pangkat
+2. id_pegawai
+3. pangkat
+4. golongan
+5. tmt_pangkat
+6. pengesah_sk
+7. no_sk
+8. tgl_sk
+
+tb_kgb
+1. id_kgb
+2. id_pegawai
+3. golongan
+4. tmt_kgb
+5. gaji
+
+tb_sppd
+1. id_sppd
+2. id_pegawai
+3. no_sppd
+4. dari
+5. tujuan
+6. perihal
+7. uang_jalan
+
+tb_penghargaan
+1. id_penghargaan
+2. id_pegawai
+3. perihal
+4. tingkat
+5. rangking
+6. tgl_penghargaan
+
+tb_hukuman
+1. id_hukuman
+2. id_pegawai
+3. masalah
+4. tgl_hukuman
+5. sanksi
+
+tb_cuti
+1. id_cuti
+2. id_pegawai
+3. perihal_cuti
+4. t_mulai_cuti
+5. t_selesai_cuti
+6. no_surat_izin_cuti
+7. pengesah_surat_cuti
+
+tb_tunjangan
+1. id_tunjangan
+2. id_pegawai
+3. no_tunjangan
+4. tgl_tunjangan
+5. jenis_tunjangan
+6. tmt_tunjangan
+7. perkawinan_dari
+
+tb_izin_kawin
+1. id_izin_kawin
+2. id_pegawai
+3. no_izin_kawin
+4. tgl_izin_kawin
+5. kebangsaan
+6. nama_ayah
+7. pekerjaan_ayah
+8. alamat_ayah
+9. nama_ibu
+10. pekerjaan_ibu
+11. alamat_ibu
+KAWIN DENGAN DIA
+12. nama_dia
+13. tempat_lahir_dia
+14. tgl_lahir_dia
+15. pekerjaan_dia
+16. nik_dia
+17. kebangsaan_dia
+18. nama_ayah_dia
+19. pekerjaan_ayah_dia
+20. alamat_ayah_dia
+21. nama_ibu_dia
+22. pekerjaan_ibu_dia
+23. alamat_ibu_dia
+24. tempat_kawin
+25. tanggal_kawin
+
+lama cuti
+tb_jabatan
+tb_pangkatgolongan 1 field
+
+
+beranda 
+1. lama pensiun 2 th v
+2. KGB 6 bln
+
+tb_mutasi
+1. id_mutasi
+2. id_pegawai
+3. id_jenis_mutasi
+4. no_sk_mutasi
+5. tgl_mutasi
+
+
+jenis mutasi di ambiak dari tb_jenis_mutasi
+
+
+tb_jenis_mutasi
+1. id_jenis_mutasi
+2. nama_jenis_mutasi
+
+tb pegawai
++ pendidikan_terakhir
+--------------------------------------------------------------------
+
+tb_sertifikasi
+1. id_sertifikasi
+2. id_pegawai
+3. no_sertifikat_sertifikasi
+4. no_peserta
+5. mapel_sertifikasi
+6. tahun_sertifikasi
